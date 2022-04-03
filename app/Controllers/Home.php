@@ -50,4 +50,15 @@ class Home extends BaseController
     {
         return view('/pages/BODPotensial');
     }
+
+    public function dataTitikPantau()
+    {
+        return view('/pages/gis/v_titikPantau');
+    }
+
+    public function gisTitikPantau()
+    {
+        return view('/pages/gis/v_maps');
+    }
+
 }

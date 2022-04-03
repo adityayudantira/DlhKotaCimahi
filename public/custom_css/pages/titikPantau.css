@@ -1,0 +1,265 @@
+.custom__header h1 {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  color: #3d6988;
+  font-weight: bold;
+}
+
+.custom__header h4 {
+  font-size: 34px;
+  color: #3d6988;
+  font-weight: bold;
+}
+
+.container__search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.input__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 341px;
+  height: 36px;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.input__container input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 15px;
+}
+
+.input__container input:focus {
+  outline: none;
+}
+
+.input__container i {
+  margin: 0 10px;
+}
+
+.custom__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 0px 5px;
+}
+
+.custom__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.custom__card {
+  margin-top: 24px;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 25px;
+  align-items: center;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+}
+
+.custom__card h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.custom__card__large {
+  margin-top: 24px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 25px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.custom__header__card__large {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  gap: 15px;
+}
+
+.custom__header__card__large button {
+  background: #3d6988;
+  border: none;
+  border-radius: 100px;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 5px 10px;
+  cursor: pointer;
+  padding: 8px 25px;
+  transition: 0.2s;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.custom__header__card__large button:hover {
+  background: #fff;
+  color: #3d6988;
+  outline-style: solid;
+}
+
+.table__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.custom__table {
+  width: 100%;
+  height: 100%;
+}
+
+.custom__table th {
+  font-size: 14px;
+  font-weight: bold;
+  color: #3d6988;
+  text-align: left;
+  padding: 10px;
+  text-align: center;
+}
+
+.custom__table td {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px;
+  text-align: center;
+}
+
+.custom__table tbody tr {
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 12px 0;
+}
+
+.button__action__container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+}
+
+.custom__button__edit {
+  background: #3d6988;
+  border: none;
+  border-radius: 15px;
+  padding: 8px 25px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.custom__button__edit:hover {
+  background: #fff;
+  color: #3d6988;
+  outline-style: solid;
+}
+
+.custom__button__delete:hover {
+  background: #fff;
+  color: #ff5c5c;
+  outline-style: solid;
+}
+
+.custom__button__delete {
+  background: #ff5c5c;
+  border: none;
+  border-radius: 15px;
+  padding: 8px 25px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.custom__header__create {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.custon__header__create h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.container__create h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.container__create input {
+  height: 36px;
+  width: 65%;
+  border-radius: 15px;
+  background: white;
+  padding: 0 10px;
+}
+
+.custom__btn__result {
+  background: #3d6988;
+  border-radius: 15px;
+}
+
+.custom__btn__result:hover {
+  background: #fff;
+  color: #3d6988;
+  outline-style: solid;
+}
+
+.row__result {
+  margin: 25px 0;
+  padding: 0px 100px;
+}
+
+.custom__container__sampling h2 {
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.custom__container__sampling {
+  margin: 0px 25px;
+}
+
+.custom__date__picker {
+  width: 100%;
+  height: auto;
+  padding: 0px 5px;
+}
