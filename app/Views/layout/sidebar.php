@@ -30,16 +30,17 @@ $segment = $uri->getSegment(2);
         </li><!-- End Beban Pencemaran Nav -->
 
         <li class="nav-item">
-            <a class="nav-link  <?php  if($segment == 'informasititikpantau') {echo " ";} else {echo "collapsed";}   ?>" data-bs-toggle="collapse" href="#">
+            <a class="nav-link <?php  if($segment == 'dataTitikPantau') {echo " ";} else {echo "collapsed";}   ?> " href="<?= base_url("dataTitikPantau") ?>">
                 <i class="bx bx-book-reader"></i><span>Informasi Titik Pantau</span>
             </a>
         </li><!-- End Informasi Titik Pantau Nav -->
 
         <li class="nav-item">
-            <a class="nav-link  <?php  if($segment == 'titikpantau') {echo " ";} else {echo "collapsed";}   ?>" data-bs-toggle="collapse" href="#">
+            <a class="nav-link  <?php  if($segment == 'gisTitikPantau') {echo " ";} else {echo "collapsed";}   ?>" href="<?= base_url("gisTitikPantau") ?>">
                 <i class="bx bxs-user"></i><span>Titik Pantau</span>
             </a>
         </li><!-- End Titik Pantau Nav -->
+
 
         <li class="nav-item">
             <a class="nav-link  <?php  if($segment == 'indexair') {echo " ";} else {echo "collapsed";}   ?>" href="/indexair">
